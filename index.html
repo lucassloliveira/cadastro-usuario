@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="formCadastro">
+        <h1>Cadastro de Usuário</h1>
+        <p>Preencha os dados abaixo e utilize o CEP para autocompletar seu endereço.</p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: João da Silva" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Ex: exemplo@email.com">
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" name="cep" placeholder="00000-000">
+
+            <button type="button" id="btnBuscarCep">Buscar CEP</button>
+
+            <label for="logradouro">Logradouro</label>
+            <input type="text" id="logradouro" name="logradouro" placeholder="Rua, Avenida ..." required>
+
+            <label for="numero">Número</label>
+            <input type="number" id="numero" name="numero" placeholder="Ex: 123" required>
+
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro" placeholder="Seu bairro" required>
+
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" required disabled>
+
+            <label for="estado">Estado (UF)</label>
+            <input type="text" id="estado" name="estado" placeholder="UF" required disabled>
+        </fieldset>
+
+        <p id="mensagem"></p>
+
+        <button type="submit">Salvar Cadastro</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

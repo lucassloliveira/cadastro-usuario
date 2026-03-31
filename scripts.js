@@ -53,10 +53,6 @@ function buscarCep() {
         }
     })
     .catch(erro => console.error("Erro ao buscar CEP: ", erro))
-
-    cidadeEl.disabled = true;
-    estadoEl.disabled = true
-
     .finally(function() {
     btnBuscarCepEl.disabled = false
     btnBuscarCepEl.textContent = 'Buscar CEP'

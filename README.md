@@ -57,3 +57,7 @@ https://seu-usuario.github.io/cadastro-usuarios
 3. Informe o número e complemento (se houver)
 4. Clique em **Salvar Cadastro** — os dados ficam salvos no navegador
 5. Ao recarregar a página, o formulário é restaurado automaticamente
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins de estudo.

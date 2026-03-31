@@ -34,7 +34,7 @@ cadastro-usuarios/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/cadastro-usuarios.git
+git clone https://github.com/lucassloliveira/cadastro-usuario.git
 ```
 
 2. Abra o arquivo `index.html` no navegador — não é necessário servidor ou instalação.
@@ -43,7 +43,7 @@ git clone https://github.com/seu-usuario/cadastro-usuarios.git
 
 Acesse a aplicação em produção via GitHub Pages:
 ```
-https://seu-usuario.github.io/cadastro-usuarios
+https://github.com/lucassloliveira/cadastro-usuario
 ```
 
 ## 📷 Preview
